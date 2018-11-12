@@ -47,6 +47,7 @@ public class TestMagentoRest {
             jsonNode = objectMapper.readTree(respString);
         } catch (IOException ex) {
             Logger.getLogger(TestMagentoRest.class.getName()).log(Level.SEVERE, null, ex);
+            
         }
         String id = jsonNode.get("id").asText();
         System.out.println("id: "+id);

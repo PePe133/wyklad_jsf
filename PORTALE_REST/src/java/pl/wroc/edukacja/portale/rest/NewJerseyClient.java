@@ -48,6 +48,17 @@ public class NewJerseyClient {
           
     }
     
+    public NewJerseyClient(int customerId) {
+        
+        client = javax.ws.rs.client.ClientBuilder.newClient();
+        
+        Feature feat = OAuth2ClientSupport.feature(storedToken);
+        client.register(feat);
+                  
+        webTarget = client.target(BASE_URI).path("sklep/rest/V1/customers/"+customerId);
+          
+    }
+    
     /**
      * @param responseType Class representing the response
      * @return response object (instance of responseType class)
