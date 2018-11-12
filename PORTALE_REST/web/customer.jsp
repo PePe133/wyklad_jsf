@@ -11,6 +11,7 @@
 <%@taglib prefix="h" uri="http://java.sun.com/jsf/html"%>
 
 <!DOCTYPE html>
+
 <f:view>
     <html>
         <head>
