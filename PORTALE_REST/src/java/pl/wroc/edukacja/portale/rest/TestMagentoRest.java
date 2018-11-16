@@ -26,7 +26,6 @@ import java.util.logging.Logger;
  * @author p.grobelny
  */
 public class TestMagentoRest {
-
     /**
      * @param args the command line arguments
      */
