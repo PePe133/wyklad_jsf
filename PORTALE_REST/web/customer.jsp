@@ -16,12 +16,12 @@
     <html>
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-            <title>Customer Detail</title>
+            <title>Customer Details</title>
             <link rel="stylesheet" type="text/css" href="jsfcrud.css" />
         </head>
         <body>
             <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
-            <h1>Customer Detail</h1>
+            <h1>Customer Details</h1>
 
             <h:dataTable value="#{customermanager.customerList}" var="item" border="0" cellpadding="2" cellspacing="0" rowClasses="jsfcrud_odd_row,jsfcrud_even_row" rules="all" style="border:solid 1px">
                 <h:column>
