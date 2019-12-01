@@ -16,7 +16,7 @@
     <html>
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-            <title>Customer Details</title>
+            <title>Customer Detail</title>
             <link rel="stylesheet" type="text/css" href="jsfcrud.css" />
         </head>
         <body>
