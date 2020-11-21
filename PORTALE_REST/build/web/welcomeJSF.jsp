@@ -9,34 +9,15 @@
 <%--
     This file is an entry point for JavaServer Faces application.
 --%>
+
 <f:view>
     <html>
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-            <title>Select action</title>
-            <link rel="stylesheet" type="text/css" href="jsfcrud.css" />
+            <title>JSP Page</title>
         </head>
         <body>
-            <h1>Show customer details!!!!</h1>
-
-
-            <h:messages style="color: red"
-                        showDetail="true"/>
-            <h:form id="select">
-                <h:panelGrid columns="2" border="0">
-                    Input customer's id: <h:inputText id="id" 
-                                 value="#{customermanager.id}"/>        
-
-                </h:panelGrid>
-                <h:commandButton id="submit" 
-                                 type="submit"
-                                 value="Show customer"
-                                 action="#{customermanager.showCustomer}"/>
-
-            </h:form>
-
-
+            <h1><h:outputText value="JavaServer Faces !!!"/></h1>
         </body>
     </html>
 </f:view>
-
